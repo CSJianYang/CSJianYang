@@ -9,7 +9,7 @@ git reset --hard origin/electra_encoder_decoder
 git pull --force origin electra_encoder_decoder:electra_encoder_decoder
 
 
-
+git checkout -b main
 git rm -r --cached .
 git add .
 git commit -m "v0"
